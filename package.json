@@ -8,7 +8,7 @@
     "html": "node lib/build > build/index.html",
     "js": "rollup --config rollup.config.js",
     "css": "postcss src/overrides.css -u autoprefixer -o build/main.css",
-    "assets": "rsync -z src/assets/ build/assets"
+    "assets": "rsync -az src/assets/ build/assets"
   },
   "author": "",
   "license": "ISC",

@@ -2,8 +2,15 @@ body {
   background-color: #000;
 }
 
-.orion {
-  background-image: url('assets/orion.jpg');
+.full{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:0;
 }
 
 .bespoke-inactive {
@@ -22,4 +29,49 @@ body {
 
 .bespoke-backdrop-inactive {
   filter: grayscale(100%);
+}
+
+.orion {
+  background-image: url('assets/orion.jpg');
+}
+
+.birth{
+  background-image: url('assets/birth.jpg');
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.ideas{
+  background-image: url('assets/ideas.gif');
+}
+
+.fire{
+  background-image: url('assets/fire.gif');
+}
+
+.yomama{
+  background-image: url('assets/rosie.gif');
+  background-position: 50% 0%;
+}
+
+.screw{
+  background-image:url('assets/screw.jpg');
+}
+.titanic{
+  background-image:url('assets/titanic.jpg');
+}
+.cat{
+  background-image:url('assets/cat.jpg');
+}
+.milk{
+  background-image:url('assets/milk.jpg');
+}
+.hugsnotdrugs{
+  background-image:url('assets/hugsnotdrugs.jpg');
+}
+.millennials{
+  background-image:url('assets/millennials.jpg');
+}
+.donger{
+  background-image:url('assets/donger.jpg');
 }
